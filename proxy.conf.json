@@ -1,0 +1,9 @@
+{
+    "/transactions/statistic": {
+        "target": "https://dt-test.post.kz",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
+
+
