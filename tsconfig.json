@@ -19,6 +19,8 @@
             "dom"
         ]
     },
+    "files":  ["types.d.ts"],
+    "include": ["src", "**/*.ts"],
     "angularCompilerOptions": {
         "enableI18nLegacyMessageIdFormat": false
     }
