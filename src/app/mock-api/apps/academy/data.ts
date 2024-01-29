@@ -69,7 +69,7 @@ export const courses = [
     // },
     {
         id         : '1b9a9acc-9a36-403e-a1e7-b11780179e38',
-        title      : 'FORUM SHOPPING CENTER',
+        title      : 'FORUM',
         slug       : 'build-an-app-for-the-google-assistant-with-firebase',
         description: 'FORUM is the largest entertainment and shopping center in Kazakhstan, with a total area of 168,000 sq.m., located in the very center of the Southern capital.',
         category   : 'firebase',
@@ -103,8 +103,9 @@ export const courses = [
         slug       : 'manage-your-pivotal-cloud-foundry-apps-using-apigee-Edge',
         description: 'MEGA Alma-Ata is a territory of comfortable shopping and leisure for the whole family.',
         category   : 'cloud',
+        image      : 'src/assets/images/pages/main/mega.png',
         duration   : 90,
-        totalSteps : 11,
+        totalSteps : 11, 
         updatedAt  : 'Jun 24, 2021',
         featured   : false,
         progress   : {

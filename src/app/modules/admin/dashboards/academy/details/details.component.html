@@ -35,6 +35,8 @@
                 <!-- Course title & description -->
                 <div class="mt-3 text-2xl font-semibold">{{course.title}}</div>
                 <div class="text-secondary">{{course.description}}</div>
+                <!-- Course image -->
+                <img [src]="course.image" class="mt-3 w-full max-h-64 object-cover" />
                 <!-- Course time -->
                 <div class="mt-6 flex items-center leading-5 text-md text-secondary">
                     <mat-icon
