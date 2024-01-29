@@ -96,6 +96,10 @@
                                 <div class="mt-4 text-lg font-medium">{{course.title}}</div>
                                 <div class="mt-0.5 line-clamp-2 text-secondary">{{course.description}}</div>
                                 <div class="w-12 h-1 my-6 border-t-2"></div>
+                             
+                                    <!-- Other course information -->
+                                    <img class="mt-3 w-full max-h-64 object-cover" [src]="'/' + course.image" alt="{{ course.title }} Image">
+                                  
                                 <!-- Course time -->
                                 <div class="flex items-center leading-5 text-md text-secondary">
                                     <mat-icon
