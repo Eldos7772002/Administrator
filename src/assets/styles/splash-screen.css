@@ -78,3 +78,12 @@ body.fuse-splash-screen-hidden fuse-splash-screen {
     visibility: hidden;
     opacity: 0;
 }
+
+.course-image {
+    width: 100%; /* Ширина 100%, чтобы изображение занимало всю доступную ширину */
+    height: 200px; /* Фиксированная высота, которую вы выбираете */
+    object-fit: cover; /* Сохраняет соотношение сторон и обрезает изображение при необходимости */
+    border-radius: 8px; /* Пример: закругление углов */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Пример: тень */
+  }
+  

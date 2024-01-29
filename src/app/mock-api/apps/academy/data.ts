@@ -72,7 +72,7 @@ export const courses = [
     },
     {
         id         : '55eb415f-3f4e-4853-a22b-f0ae91331169',
-        title      : 'GRAND PARK SHOPPING AND ENTERTAINMENT COMPLEX',
+        title      : 'GRAND PARK',
         slug       : 'keep-sensitive-data-safe-and-private',
         description: 'Grand Park is a full-fledged shopping and entertainment complex for the whole family. The total area is 250,000 m2.',
         category   : 'android',
